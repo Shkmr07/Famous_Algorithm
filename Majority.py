@@ -1,6 +1,6 @@
 # Majority element question ( Boyer-Moore Voting Algorithm)
 
-arr = [2,1,2,2,2,5]
+arr = [2,1,2,2,2,5]       #input array
 n,mj,ct = len(arr),0,1   # I assume that the first index of an array is my majority element
 
 for i in range(1,n):
